@@ -1,0 +1,68 @@
+:root{
+ --primary-color: #3bdcc0;
+ --white-color: #ffffff;
+}
+
+html {
+  height: 100vh;
+  background-color: var(--primary-color);
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color:var(--primary-color);
+}
+
+#quote-box {
+  background-color: var(--white-color);
+  border-radius: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1rem;
+  width: 60%;
+  
+}
+.heading {
+  text-align: center;
+  font-size: 3.5rem;  
+}
+#text{
+  font-size: 1.7rem;  
+  text-align: center;
+  padding: 2rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+#author{
+  font-size: 2rem;
+  text-align: right;
+  padding: 2rem;
+  margin-bottom: 6rem;
+}
+.btn{
+  position: absolute;
+  border-radius: 2rem;
+  border:none;
+  color: var(--white-color);
+  background-color: var(--primary-color);
+  padding:1rem 2rem;
+  outline: none;
+  font-size: 1.5rem;
+  transition: all .3s
+}
+.btn:hover{
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 1rem 2rem black;
+}
+
+
+#new-quote{
+  bottom: 2rem;
+  right: 2rem;
+}
+#tweet{
+  bottom: 2rem;
+  left: 2rem;
+}
+

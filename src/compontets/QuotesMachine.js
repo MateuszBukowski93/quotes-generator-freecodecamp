@@ -2,12 +2,10 @@ import React, { Component } from "react";
 
 
 class QuotesMachine extends Component {
-  constructor() {
-    super();
-    this.state = {
-      quote: "",
-      author: ""
-    };
+ 
+  state = {
+    quote: '',
+    author: ''
   }
 
   getRandomQuote = async () => {

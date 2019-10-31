@@ -31,6 +31,7 @@ const QuotesMachine = () => {
       <button id="new-quote" className="btn" onClick={getRandomQuote}>
         new Quote
       </button>
+ 
       <a
         href={encodeURI(
           `https://twitter.com/intent/tweet?text=${quote}&hashtags=MateuszBukowski`

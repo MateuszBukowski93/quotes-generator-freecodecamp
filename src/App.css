@@ -51,10 +51,7 @@ html {
   font-size: 1.5rem;
   transition: all .3s
 }
-.btn:hover{
-  transform: translateY(-5px) scale(1.05);
-  box-shadow: 0 1rem 2rem black;
-}
+
 
 
 #new-quote{
@@ -70,4 +67,5 @@ html {
   *{
     font-size:10px
   }
+
 }

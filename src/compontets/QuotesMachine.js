@@ -39,7 +39,7 @@ const QuotesMachine = () => {
         id="tweet"
         className="btn"
       >
-        <i className="fab fa-twitter-square"> Tweet It</i>
+        <i className="fab fa-twitter-square"/> Tweet It 
       </a>
     </div>
     

@@ -50,17 +50,20 @@ html {
   padding:1rem 2rem;
   outline: none;
   font-size: 1.5rem;  
+  font-family: inherit;
 }
 
-#new-quote{font-family: inherit;
+#new-quote{  
   bottom: 2rem;
   right: 2rem;
 }
-#tweet{
-  font-family: inherit;
+#tweet{ 
   text-decoration: none;
   bottom: 2rem;
   left: 2rem;
+}
+i{
+font-size:inherit;
 }
 
 
@@ -74,8 +77,8 @@ html {
     position: absolute;
     top: 50%;    
     padding: 1rem;
-    width: 100%;
-      
+    width: 100%;      
   }
+  
 
 }

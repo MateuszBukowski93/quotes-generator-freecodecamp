@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=McLaren&display=swap');
-:root{
- --primary-color: #3bdcc0;
- --white-color: #ffffff;
+@import url("https://fonts.googleapis.com/css?family=McLaren&display=swap");
+:root {
+  --primary-color: #3bdcc0;
+  --white-color: #ffffff;
 }
 
 html {
   height: 100vh;
-  font-family: 'McLaren', cursive;
+  font-family: "McLaren", cursive;
   background-color: var(--primary-color);
   margin: 0;
   padding: 0;
-  overflow: hidden;  
+  overflow: hidden;
 }
 
 #quote-box {
@@ -23,62 +23,58 @@ html {
   transform: translate(-50%, -50%);
   padding: 1rem;
   width: 60%;
-  
 }
 .heading {
   text-align: center;
-  font-size: 3.5rem;  
+  font-size: 3.5rem;
 }
-#text{
-  font-size: 1.7rem;  
+#text {
+  font-size: 1.7rem;
   text-align: center;
   padding: 2rem;
-  margin-bottom: 1rem; 
+  margin-bottom: 1rem;
 }
-#author{
+#author {
   font-size: 2rem;
   text-align: right;
   padding: 2rem;
   margin-bottom: 6rem;
 }
-.btn{
+.btn {
   position: absolute;
   border-radius: 2rem;
-  border:none;
+  border: none;
   color: var(--white-color);
   background-color: var(--primary-color);
-  padding:1rem 2rem;
+  padding: 1rem 2rem;
   outline: none;
-  font-size: 1.5rem;  
+  font-size: 1.5rem;
   font-family: inherit;
 }
 
-#new-quote{  
+#new-quote {
   bottom: 2rem;
   right: 2rem;
 }
-#tweet{ 
+#tweet {
   text-decoration: none;
   bottom: 2rem;
   left: 2rem;
 }
-i{
-font-size:inherit;
+i {
+  font-size: inherit;
 }
 
-
 @media (max-width: 800px) {
-  *{
-    font-size:10px
+  * {
+    font-size: 10px;
   }
   #quote-box {
     background-color: var(--white-color);
     border-radius: 1rem;
     position: absolute;
-    top: 50%;    
+    top: 50%;
     padding: 1rem;
-    width: 100%;      
+    width: 100%;
   }
-  
-
 }
